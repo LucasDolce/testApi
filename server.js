@@ -1,3 +1,3 @@
 import api from "./Api";
 
-api.listen(3333);
+api.listen(process.env.PORT || 3333);
