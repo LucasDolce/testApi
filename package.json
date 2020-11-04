@@ -25,7 +25,8 @@
     "yup": "^0.27.0"
   },
   "scripts": {
-    "startData": "nodemon server.js"
+    "startData": "nodemon server.js",
+    "start": "node server.js"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
